@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Pacifico&family=Poppins&display=swap');
+
+/*------------------universal declaration----------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'sans-serif';
+ 
+}
+
+
+/*-------------------NAV BAR----------------------*/
+nav{
+  width: 100%;
+  left:  0px;
+  top: 0;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+  position:sticky !important ;
+ }
+.navbar-brand{
+  font-weight: 900;
+  padding-left:0;
+} 
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    border-bottom:1px solid transparent;
+}
+  .nav-link:hover{
+    border-bottom:1px solid white;
+} 
+/*------------------home page-------------------*/ 
+
+
+.home .row{
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-bottom: 5rem;
+}
+
+
+.home .col-md-6{
+  padding-right: 50px;
+  margin-bottom: 5%;
+}
+.home img{
+  max-width: 100%;
+  height: auto;
+  border: 3px solid rgb(34, 216, 192);
+  border-radius: 50%;
+  box-shadow: 0px 10px 15px black;
+}
+.home .btn{
+  margin-top: 5%;
+}
+.home .btn:hover{
+  background-color: brown;
+}
+/*---------------ABOUT SECTION------------*/
+.about .text-center{
+  margin: 45px;
+  
+}
+
+.about .row .col-lg-7 p{
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+.about .row .col-lg-7 .text-primary{
+  padding: 10px;
+  font-weight: 700;
+  color: rgb(4, 112, 45)!important ;
+  font-size: 30px;
+  box-shadow: 0px 10px 15px black;
+ 
+
+}
+
+.about h6{
+  color:rgb(1, 1, 59);
+  font-weight: 800;
+  font-size: 18px;
+}
+.about .col-sm-6 span{
+  color: blueviolet;
+}
+/*-------------resume section----------*/
+.resume .text-center{
+  margin : 45px;
+}
+
+.resume .title-text{
+  color: rgb(1, 1, 59);
+  font-size: 22px;
+  font-weight: 600;
+}
+.resume .col-lg-6 .text-start{
+  color: rgb(4, 112, 45);
+  font-size: 35px !important;
+  box-shadow: 0px 10px 15px black;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+/*------------contact---------------*/
+#contact .text-center{
+  margin: 45px;
+}
+#contact-form  span{
+    color: rgb(1, 1, 59);
+    font-size: 22px;
+}

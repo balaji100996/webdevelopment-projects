@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--===================NAVBAR========================-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">MY PORTFOLIO</a>
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"   
+                data-bs-target="#navbarSupportedContent"        
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"                 id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                        <a class="nav-link " href="#home">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>   
+     </nav> 
+    <!--=================HOME SECTION==================--> 
+    <section id="home" class="home">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-6">
+                   <p class="h1">Hello..</p>
+                   <p class="h3">If You're Looking To Hire a Fresher In Web Development,You Can Get In Touch With Me Here </p>
+                   <button type="button" class="btn btn-primary ">HIRE ME</button>
+                   <button type="button" class="btn btn-primary ">DOWNLOAD CV</button>
+                </div> 
+                <div class="col-md-6">
+                    <img src="image.jpg"  alt="balaji">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================about section===================-->
+    <section id="about" class="about">
+        <div class="container">
+          <p class="text-center h1">ABOUT ME</p>
+            <div class="row">
+                 <div class="col-lg-5">
+                    <img src="my-photo.jpg" alt="Profile" class="img-fluid rounded-circle mb-4">
+                 </div>
+                 <div class="col-lg-7 mt-3">
+                      <p class="text-primary">HELLO WORLD..!!</p>
+                      <p>I'M A Frontend web developer from Chennai.
+                      <p>I Enjoy building websites for small business to rich interactive web apps.</p>
+                      <p>I'M Excited in refilling my skills with the right company</p>
+                      <div class="row">
+                          <div class="col-sm-6 py-2">
+                            <h6>NAME: <span class="text-dark">R.BALAJI</span></h6>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                            <h6>DATE OF BIRTH: <span class="text-dark">10/09/1996</span></h6>
+                          </div>
+                      </div>
+                       <div class="row">
+                          <div class="col-sm-6" py-2>
+                            <h6>DEGREE: <span class="text-dark">Bachelor of Engineering,EEE</h6>
+                          </div>
+                          <div class="col-sm-6 py-2">
+                           <h6>PHONE NUMBER: <span class="text-dark">9941411488</span></h6>
+                          </div>
+                        </div>
+                      <div class="row">
+                          <div class="col-sm-6 py-2">
+                             <h6>MAIL ID: <span class="text-dark">balarajendran1996@gmail.com</span></h6>
+                           </div>
+                           <div class="col-sm-6 py-2">
+                             <h6>ADDRESS: <span class="text-dark">NO.96 RAJAJI STREET,MATHIYALAGAN NAGAR PADI,CHENNAI-600050</span></h6>
+                           </div>
+                      </div>
+                   </div>
+               </div>
+         </div>   
+    </section>
+    <!--===============resume section=====================-->
+<section id="resume" class="resume">
+    <div class="container mt-3">
+      <p class="text-center h1">RESUME</p>
+        <div class="row">
+          <div class="col-lg-6">
+             <p class="text-start h2">Education</p>
+             <p class="title-text h5">Bachelor of Engineering <span class="badge rounded-circle bg-dark p-2">6.6 CGPA</span></p> 
+             <span class="badge rounded-pill bg-success py-2 mb-4">2014-2018 Velammal Engineering College,chennai.</span>
+             <p class="title-text h5">HSC <span class="badge rounded-circle bg-dark p-2">86.5%</span></p> 
+             <span class="badge rounded-pill bg-success py-2 mb-4">2012-2014 Velammal Matriculation Higher Secondary School,Chennai.</span>
+             <p class="title-text h5">S.S.L.C
+              <span class="badge rounded-circle bg-dark p-2">89.6%</span></p> 
+             <span class="badge rounded-pill bg-success py-2 mb-4">2011-2012 Velammal Matriculation Higher Secondary School,Chennai.</span>
+             
+          </div>
+          <div class="col-lg-6">
+             <p class="text-start h2">Certification</p> 
+             <p class="title-text h5">Frontend Web Development</p>
+             <span class="badge rounded-pill bg-success py-2 mb-4">2023-2024 IBM Certification in Soft Logic System,chennai.</span>
+          </div> 
+    </div>   
+</section> 
+   
+  <!--=======================CONTACT========================-->
+ <section id="contact" class="contact">
+    <div class="container">
+      <form id="contact-form">
+          <p class="text-center h1 " >CONTACT</p>
+         <div class="form-group">
+            <label for="name"><span>Organisation Name:</span></label>
+         
+            <input type="text" class="form-control" id="name" placeholder= "Enter your organisation name" required>
+         </div>
+         <div class="form-group">
+            <label for="email"><span>Email:</span></label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+         </div>
+         <div class="form-group">
+            <label for="message"><span>Message:</span></label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+         </div>
+         
+            <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+   </section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>    
+</body>
+</html>
